@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>
+            Example_1_Bulb
+        </title>
+        <script>
+            function on_bulb()
+            {
+               document.getElementById("bulb_img").src="D:/Front_End_Classes_Notes/Java-Script/Images/ON_BULB.AVIF";
+            }
+            function off_bulb()
+            {
+                document.getElementById("bulb_img").src="D:/Front_End_Classes_Notes/Java-Script/Images/Bolb_Off.JPG";
+            }
+        </script>
+       
+    </head>
+    <body>
+       <button id="yellow_bb" onclick="on_bulb()">ON</button>
+       <img id= "bulb_img" src="D:/Front_End_Classes_Notes/Java-Script/Images/Bolb_Off.JPG">
+       <button onclick="off_bulb()">OFF</button>
+    </body>
+</html>
